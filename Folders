@@ -1,0 +1,14 @@
+Lib contains your drt files, can create a few in this folder and merge later
+but it's good to keep seperate until later so it's more readable.
+File needs to end in .dart so the code editor knows how to read it
+
+Folders that contain platform name nmes simply contain platform specific files
+Typiucally you dont need to do nything with them, flutter will chnge and update as needed,
+they are managed by flutter. They become important when you're ready to publish the app
+to the specific platform
+
+Build folder is important but you won't work within it, managed automtically by flutter
+
+test folder conatins dart files, you can write code that tests your main code to catch errors early
+
+folders containining a dot simply hold extra configurations
